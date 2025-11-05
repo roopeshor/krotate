@@ -15,11 +15,11 @@ if [[ "$state" == "n" ]]; then
 	kscreen-doctor output."$OUTPUT_DISP".rotation.left
 elif [[ "$state" == "l" ]]; then
 	echo "i" > "$STATE_FILE"
-        kscreen-doctor output."$OUTPUT_DISP".rotation.inverted
+	kscreen-doctor output."$OUTPUT_DISP".rotation.inverted
 elif [[ "$state" == "i" ]]; then
 	echo "r" > "$STATE_FILE"
-        kscreen-doctor output."$OUTPUT_DISP".rotation.right
+	kscreen-doctor output."$OUTPUT_DISP".rotation.right
 else
 	echo "n" > "$STATE_FILE"
-        kscreen-doctor output."$OUTPUT_DISP".rotation.normal
+	kscreen-doctor output."$OUTPUT_DISP".rotation.normal
 fi
