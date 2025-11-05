@@ -1,6 +1,6 @@
 # KRotate
 
-Keyboard shortcuts scripts to rotate whole screen to left or right. It works by reading current rotation state in the file `$HOME/.config/krotate.rc` and doing appropriate rotation for a given keystroke. This script is based on `kscreen-doctor`.
+KDE plasma 6 Keyboard shortcut scripts to rotate whole screen to left or right. It works by reading current rotation state in the file `$HOME/.config/krotate.rc` and doing appropriate rotation for a given keystroke. This script is based on `kscreen-doctor`.
 
 ## install
 You have to create two shortcuts here.
